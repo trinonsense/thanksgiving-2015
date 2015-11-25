@@ -9,8 +9,11 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <style>
-      .menu-item {
+      .main-content {
+        text-align: center;
+      }
 
+      .menu-item {
       }
 
       .menu-item .__inner {
@@ -136,12 +139,90 @@
 <hr>
 
 <h2>
-<a id="entertainment" class="anchor" href="#entertainment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Entertainment</h2>
+<a id="football" class="anchor" href="#football" aria-hidden="true"><span class="octicon octicon-link"></span></a>Football</h2>
 
-<h3>
-<a id="football" class="anchor" href="#football" aria-hidden="true"><span class="octicon octicon-link"></span></a>Football</h3>
+<style>
+  .football {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    margin-bottom: 2em;
+  }
 
-<p><a href="http://www.nfl.com/thanksgiving">http://www.nfl.com/thanksgiving</a></p>
+  .football-team:first-child {
+    margin-right: 1.5em;
+  }
+
+  .football-team:last-child {
+    margin-left: 1.5em;
+  }
+
+  .football-team img {
+    border-radius: 4px;
+  }
+
+  .football-info {
+    min-width: 70px;
+  }
+
+  .football-info h4 {
+    margin: 0;
+  }
+</style>
+
+<div class="football">
+  <div class="football-team">
+    <img src="images/PHI.png">
+    <div class="footbal-name">Eagles</div>
+  </div>
+
+  <div class="football-info">
+    <h4 class="football-time">12:30 PM</h4>
+    <label class="football-channel">FOX</label>
+  </div>
+
+  <div class="football-team">
+    <img src="images/DET.png">
+    <div class="footbal-name">Lions</div>
+  </div>
+</div>
+
+<div class="football">
+  <div class="football-team">
+    <img src="images/CAR.png">
+    <div class="footbal-name">Panthers</div>
+  </div>
+
+  <div class="football-info">
+    <h4 class="football-time">4:30 PM</h4>
+    <label class="football-channel">CBS</label>
+  </div>
+
+  <div class="football-team">
+    <img src="images/DAL.png">
+    <div class="footbal-name">Cowboys</div>
+  </div>
+</div>
+
+<div class="football">
+  <div class="football-team">
+    <img src="images/CHI.png">
+    <div class="footbal-name">Bears</div>
+  </div>
+
+  <div class="football-info">
+    <h4 class="football-time">8:30 PM</h4>
+    <label class="football-channel">NBC</label>
+  </div>
+
+  <div class="football-team">
+    <img src="images/GB.png">
+    <div class="footbal-name">Packer</div>
+  </div>
+</div>
+
+
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/trinonsense/thanksgiving-2015">Thanksgiving Nonsense 2015</a> is maintained by <a href="https://github.com/trinonsense">trinonsense</a>.</span>
